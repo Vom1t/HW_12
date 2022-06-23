@@ -1,12 +1,12 @@
 import json
 
 
-def load_posts() -> list[dict]:
+def load_posts() -> list[dict]:   # Функция загрузки JSON
     with open('posts.json', 'r', encoding='utf-8') as file:
         return json.load(file)
 
 
-def get_posts_by_word(word: str) -> list[dict]:
+def get_posts_by_word(word: str) -> list[dict]:   # Функция получения поста по слову
     result = []
     for post in load_posts():
         if word.lower() in post['content'].lower():
@@ -14,7 +14,7 @@ def get_posts_by_word(word: str) -> list[dict]:
     return result
 
 
-def add_post(post: dict) -> dict:
+def add_post(post: dict) -> dict:   # Функция загрузки поста
     posts: list[dict] = load_posts()
     posts.append(post)
     with open('posts.json', 'w', encoding='utf-8') as file:

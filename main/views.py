@@ -9,12 +9,12 @@ from functions import get_posts_by_word
 main_blueprint = Blueprint('main_blueprint', __name__, template_folder='templates')
 
 
-@main_blueprint.route('/')
+@main_blueprint.route('/')   # блюпринт главной страницы
 def main_page():
     return render_template('index.html')
 
 
-@main_blueprint.route('/search/')
+@main_blueprint.route('/search/')   # блюпринт страницы поиска
 def search_page():
     search_query = request.args.get('s')
     logging.info('Выполняю поиск')

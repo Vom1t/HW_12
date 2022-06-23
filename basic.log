@@ -22,3 +22,71 @@ INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 18:50:39] "GET /post HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 18:50:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
 INFO:root:Загруженный файл не картинка
 INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 18:50:50] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:12:36] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:12:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:12:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:12:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:12:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Выполняю поиск
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:12:42] "GET /search/?s= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:12:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:12:42] "[36mGET /uploads/images/ава.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:12:48] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:12:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:13:24] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:13:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:13:24] "GET /uploads/images/ава.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:13:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:13:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:13:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Выполняю поиск
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:13:28] "GET /search/?s= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:13:28] "[36mGET /uploads/images/ава.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:13:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:13:28] "[36mGET /uploads/images/ава.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:13:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:13:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:13:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Выполняю поиск
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:13:36] "GET /search/?s=jef HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:13:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:13:36] "[36mGET /uploads/images/ава.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:13:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:13:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:13:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:13:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Выполняю поиск
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:13:43] "GET /search/?s=яйцо HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:13:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:13:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:13:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:13:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:13:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Выполняю поиск
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:13:46] "GET /search/?s= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:13:46] "[36mGET /uploads/images/ава.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:13:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:13:46] "[36mGET /uploads/images/ава.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:13:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:13:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:13:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Выполняю поиск
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:13:54] "GET /search/?s=пирог HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:13:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [20/Jun/2022 21:13:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2022 11:58:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2022 11:58:31] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2022 11:58:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2022 11:58:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2022 11:58:34] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2022 11:58:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2022 11:58:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2022 11:58:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2022 11:58:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Выполняю поиск
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2022 11:58:38] "GET /search/?s= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2022 11:58:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2022 11:58:38] "[33mGET /uploads/images/ава.png HTTP/1.1[0m" 404 -
