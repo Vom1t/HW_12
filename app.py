@@ -14,5 +14,11 @@ app.register_blueprint(main_blueprint)  # Регистрация главног�
 app.register_blueprint(loader_blueprint)  # Регистрация блюпринта загрузки
 logging.basicConfig(filename='basic.log', level=logging.INFO)  # загрузка файла логов
 
+
+@app.route("/uploads/<path:path>")
+def static_dir(path):
+    return send_from_directory("uploads", path)
+
+
 app.run()
 
